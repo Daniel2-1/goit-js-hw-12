@@ -8,10 +8,10 @@ import renderImages from './js/render-functions.js';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
-const form = document.querySelector('form');
+const form = document.querySelector('.form');
 const input = document.querySelector('input[data-search]');
 const loader = document.querySelector('.loader-div');
-const list = document.querySelector('.list');
+const list = document.querySelector('.gallery');
 const moreBtn = document.querySelector('.show-more');
 
 form.addEventListener('submit', async e => {
